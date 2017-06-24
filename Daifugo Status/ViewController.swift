@@ -70,7 +70,9 @@ class ViewController: UIViewController {
     //長押し時の処理
     //背景色を切り替える
     func LongPress(gestureRecognizer: UILongPressGestureRecognizer) {
-        isRevolution = !isRevolution
+        if gestureRecognizer.state == UIGestureRecognizerState.began{
+            isRevolution = !isRevolution
+        }
     }
     
     //0.1秒ごとに実行
