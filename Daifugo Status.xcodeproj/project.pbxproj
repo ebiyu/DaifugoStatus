@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003010251EFE098700137C48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010241EFE098700137C48 /* AppDelegate.swift */; };
+		003010271EFE098700137C48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010261EFE098700137C48 /* ViewController.swift */; };
+		0030102A1EFE098700137C48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003010281EFE098700137C48 /* Main.storyboard */; };
+		0030102C1EFE098700137C48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0030102B1EFE098700137C48 /* Assets.xcassets */; };
+		0030102F1EFE098700137C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0030102D1EFE098700137C48 /* LaunchScreen.storyboard */; };
+		0030103A1EFE098700137C48 /* Daifugo_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010391EFE098700137C48 /* Daifugo_StatusTests.swift */; };
+		003010451EFE098700137C48 /* Daifugo_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010441EFE098700137C48 /* Daifugo_StatusUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		003010361EFE098700137C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003010191EFE098700137C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003010201EFE098700137C48;
+			remoteInfo = "Daifugo Status";
+		};
+		003010411EFE098700137C48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 003010191EFE098700137C48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 003010201EFE098700137C48;
+			remoteInfo = "Daifugo Status";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		003010211EFE098700137C48 /* Daifugo Status.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daifugo Status.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003010241EFE098700137C48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		003010261EFE098700137C48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		003010291EFE098700137C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0030102B1EFE098700137C48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0030102E1EFE098700137C48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		003010301EFE098700137C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003010351EFE098700137C48 /* Daifugo StatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daifugo StatusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003010391EFE098700137C48 /* Daifugo_StatusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daifugo_StatusTests.swift; sourceTree = "<group>"; };
+		0030103B1EFE098700137C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		003010401EFE098700137C48 /* Daifugo StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daifugo StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		003010441EFE098700137C48 /* Daifugo_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daifugo_StatusUITests.swift; sourceTree = "<group>"; };
+		003010461EFE098700137C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0030101E1EFE098700137C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003010321EFE098700137C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030103D1EFE098700137C48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		003010181EFE098700137C48 = {
+			isa = PBXGroup;
+			children = (
+				003010231EFE098700137C48 /* Daifugo Status */,
+				003010381EFE098700137C48 /* Daifugo StatusTests */,
+				003010431EFE098700137C48 /* Daifugo StatusUITests */,
+				003010221EFE098700137C48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		003010221EFE098700137C48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				003010211EFE098700137C48 /* Daifugo Status.app */,
+				003010351EFE098700137C48 /* Daifugo StatusTests.xctest */,
+				003010401EFE098700137C48 /* Daifugo StatusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		003010231EFE098700137C48 /* Daifugo Status */ = {
+			isa = PBXGroup;
+			children = (
+				003010241EFE098700137C48 /* AppDelegate.swift */,
+				003010261EFE098700137C48 /* ViewController.swift */,
+				003010281EFE098700137C48 /* Main.storyboard */,
+				0030102B1EFE098700137C48 /* Assets.xcassets */,
+				0030102D1EFE098700137C48 /* LaunchScreen.storyboard */,
+				003010301EFE098700137C48 /* Info.plist */,
+			);
+			path = "Daifugo Status";
+			sourceTree = "<group>";
+		};
+		003010381EFE098700137C48 /* Daifugo StatusTests */ = {
+			isa = PBXGroup;
+			children = (
+				003010391EFE098700137C48 /* Daifugo_StatusTests.swift */,
+				0030103B1EFE098700137C48 /* Info.plist */,
+			);
+			path = "Daifugo StatusTests";
+			sourceTree = "<group>";
+		};
+		003010431EFE098700137C48 /* Daifugo StatusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				003010441EFE098700137C48 /* Daifugo_StatusUITests.swift */,
+				003010461EFE098700137C48 /* Info.plist */,
+			);
+			path = "Daifugo StatusUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		003010201EFE098700137C48 /* Daifugo Status */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 003010491EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo Status" */;
+			buildPhases = (
+				0030101D1EFE098700137C48 /* Sources */,
+				0030101E1EFE098700137C48 /* Frameworks */,
+				0030101F1EFE098700137C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daifugo Status";
+			productName = "Daifugo Status";
+			productReference = 003010211EFE098700137C48 /* Daifugo Status.app */;
+			productType = "com.apple.product-type.application";
+		};
+		003010341EFE098700137C48 /* Daifugo StatusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0030104C1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusTests" */;
+			buildPhases = (
+				003010311EFE098700137C48 /* Sources */,
+				003010321EFE098700137C48 /* Frameworks */,
+				003010331EFE098700137C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003010371EFE098700137C48 /* PBXTargetDependency */,
+			);
+			name = "Daifugo StatusTests";
+			productName = "Daifugo StatusTests";
+			productReference = 003010351EFE098700137C48 /* Daifugo StatusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0030103F1EFE098700137C48 /* Daifugo StatusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0030104F1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusUITests" */;
+			buildPhases = (
+				0030103C1EFE098700137C48 /* Sources */,
+				0030103D1EFE098700137C48 /* Frameworks */,
+				0030103E1EFE098700137C48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				003010421EFE098700137C48 /* PBXTargetDependency */,
+			);
+			name = "Daifugo StatusUITests";
+			productName = "Daifugo StatusUITests";
+			productReference = 003010401EFE098700137C48 /* Daifugo StatusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		003010191EFE098700137C48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "海老原祐輔";
+				TargetAttributes = {
+					003010201EFE098700137C48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					003010341EFE098700137C48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 003010201EFE098700137C48;
+					};
+					0030103F1EFE098700137C48 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 003010201EFE098700137C48;
+					};
+				};
+			};
+			buildConfigurationList = 0030101C1EFE098700137C48 /* Build configuration list for PBXProject "Daifugo Status" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 003010181EFE098700137C48;
+			productRefGroup = 003010221EFE098700137C48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				003010201EFE098700137C48 /* Daifugo Status */,
+				003010341EFE098700137C48 /* Daifugo StatusTests */,
+				0030103F1EFE098700137C48 /* Daifugo StatusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0030101F1EFE098700137C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030102F1EFE098700137C48 /* LaunchScreen.storyboard in Resources */,
+				0030102C1EFE098700137C48 /* Assets.xcassets in Resources */,
+				0030102A1EFE098700137C48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003010331EFE098700137C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030103E1EFE098700137C48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0030101D1EFE098700137C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003010271EFE098700137C48 /* ViewController.swift in Sources */,
+				003010251EFE098700137C48 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		003010311EFE098700137C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0030103A1EFE098700137C48 /* Daifugo_StatusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0030103C1EFE098700137C48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				003010451EFE098700137C48 /* Daifugo_StatusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		003010371EFE098700137C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003010201EFE098700137C48 /* Daifugo Status */;
+			targetProxy = 003010361EFE098700137C48 /* PBXContainerItemProxy */;
+		};
+		003010421EFE098700137C48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 003010201EFE098700137C48 /* Daifugo Status */;
+			targetProxy = 003010411EFE098700137C48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		003010281EFE098700137C48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				003010291EFE098700137C48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0030102D1EFE098700137C48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0030102E1EFE098700137C48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		003010471EFE098700137C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		003010481EFE098700137C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0030104A1EFE098700137C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daifugo Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0030104B1EFE098700137C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Daifugo Status/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-Status";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0030104D1EFE098700137C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daifugo StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daifugo Status.app/Daifugo Status";
+			};
+			name = Debug;
+		};
+		0030104E1EFE098700137C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Daifugo StatusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-StatusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daifugo Status.app/Daifugo Status";
+			};
+			name = Release;
+		};
+		003010501EFE098700137C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Daifugo StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Daifugo Status";
+			};
+			name = Debug;
+		};
+		003010511EFE098700137C48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Daifugo StatusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ebiyuu1121.Daifugo-StatusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Daifugo Status";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0030101C1EFE098700137C48 /* Build configuration list for PBXProject "Daifugo Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003010471EFE098700137C48 /* Debug */,
+				003010481EFE098700137C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		003010491EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo Status" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0030104A1EFE098700137C48 /* Debug */,
+				0030104B1EFE098700137C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0030104C1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0030104D1EFE098700137C48 /* Debug */,
+				0030104E1EFE098700137C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0030104F1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				003010501EFE098700137C48 /* Debug */,
+				003010511EFE098700137C48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 003010191EFE098700137C48 /* Project object */;
+}
