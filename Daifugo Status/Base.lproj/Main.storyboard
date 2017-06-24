@@ -23,15 +23,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RotationArrow.png" translatesAutoresizingMaskIntoConstraints="NO" id="pAz-n5-4dO">
-                                <rect key="frame" x="16" y="20" width="343" height="647"/>
+                                <rect key="frame" x="46" y="50" width="283" height="587"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.12376436535586333" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pAz-n5-4dO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="PjE-2L-h1y"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="pAz-n5-4dO" secondAttribute="trailing" id="QQ8-6G-cAb"/>
-                            <constraint firstItem="pAz-n5-4dO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bSa-AU-Ylz"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pAz-n5-4dO" secondAttribute="bottom" id="gZo-Qr-0yW"/>
+                            <constraint firstItem="pAz-n5-4dO" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="PjE-2L-h1y"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="pAz-n5-4dO" secondAttribute="trailing" constant="30" id="QQ8-6G-cAb"/>
+                            <constraint firstItem="pAz-n5-4dO" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="30" id="bSa-AU-Ylz"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="pAz-n5-4dO" secondAttribute="bottom" constant="30" id="gZo-Qr-0yW"/>
                         </constraints>
                     </view>
                     <connections>
