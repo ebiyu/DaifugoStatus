@@ -14,6 +14,7 @@
 		0030102F1EFE098700137C48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0030102D1EFE098700137C48 /* LaunchScreen.storyboard */; };
 		0030103A1EFE098700137C48 /* Daifugo_StatusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010391EFE098700137C48 /* Daifugo_StatusTests.swift */; };
 		003010451EFE098700137C48 /* Daifugo_StatusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003010441EFE098700137C48 /* Daifugo_StatusUITests.swift */; };
+		0068C08C1EFE26BF002636A1 /* RotationArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0068C08B1EFE26BF002636A1 /* RotationArrow.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		003010401EFE098700137C48 /* Daifugo StatusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daifugo StatusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		003010441EFE098700137C48 /* Daifugo_StatusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Daifugo_StatusUITests.swift; sourceTree = "<group>"; };
 		003010461EFE098700137C48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0068C08B1EFE26BF002636A1 /* RotationArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RotationArrow.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		003010231EFE098700137C48 /* Daifugo Status */ = {
 			isa = PBXGroup;
 			children = (
+				0068C08B1EFE26BF002636A1 /* RotationArrow.png */,
 				003010241EFE098700137C48 /* AppDelegate.swift */,
 				003010261EFE098700137C48 /* ViewController.swift */,
 				003010281EFE098700137C48 /* Main.storyboard */,
@@ -235,6 +238,7 @@
 				0030102F1EFE098700137C48 /* LaunchScreen.storyboard in Resources */,
 				0030102C1EFE098700137C48 /* Assets.xcassets in Resources */,
 				0030102A1EFE098700137C48 /* Main.storyboard in Resources */,
+				0068C08C1EFE26BF002636A1 /* RotationArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				0030104B1EFE098700137C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0030104C1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				0030104E1EFE098700137C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0030104F1EFE098700137C48 /* Build configuration list for PBXNativeTarget "Daifugo StatusUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				003010511EFE098700137C48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
